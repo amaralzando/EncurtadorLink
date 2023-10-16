@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="jquery-3.6.4.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <link rel="shortcut icon" href="assets/icon-header.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet">
+    <title>Encurtador Link</title>
+</head>
+<body>
+    <div class="box">
+        <h1>Encurtador de Link <img src="assets/icon-body.png"></h1>
+        <div class="box-input">
+            <input class="input-url" id="input-url" type="text" placeholder="Coloque seu URL aqui: ">
+            <div class="divBtn">
+                <button class="btn" onclick="Encurtar()">Encurtar</button>
+                <button class="btn" onclick="Copiar()">Copiar</button>
+            </div>
+        </div>
+        <br>
+        <div class="divUrl-encurtada">
+            <h2>URL Encurtada</h2>
+            <input class="input-url-encurtada" id="input-url-encurtada" type="text" value="URL Encurtada" disabled>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
